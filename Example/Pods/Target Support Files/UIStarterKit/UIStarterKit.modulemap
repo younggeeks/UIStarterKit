@@ -1,0 +1,6 @@
+framework module UIStarterKit {
+  umbrella header "UIStarterKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
