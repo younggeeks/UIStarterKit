@@ -113,6 +113,7 @@
 		9E33676D219AFB390096CF1D /* MaterialInput .swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E33676A219AFB390096CF1D /* MaterialInput .swift */; };
 		9E33676E219AFB390096CF1D /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E33676B219AFB390096CF1D /* FancyButton.swift */; };
 		9E336770219AFCEA0096CF1D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E33676F219AFCEA0096CF1D /* CardView.swift */; };
+		9E3F9956219B79E4005DE8A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E3F9955219B79E4005DE8A3 /* Images.xcassets */; };
 		A423493DDCAFC3B41CD658CBEBF5E7B9 /* DynamicSizeSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C826323C6CDC4C15F1D1242AC2B5B48 /* DynamicSizeSnapshot.swift */; };
 		A5FA196F3B285961378EAFC3FD9FA5E2 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BEAADD3D502C3823DD093E5EE7E265 /* ExampleHooks.swift */; };
 		A6D8CBAF604721D35DEDC81D67AB26CB /* CwlPreconditionTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = B32BBBDDC59BABFB2B02807EAA9ED7E2 /* CwlPreconditionTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -362,6 +363,7 @@
 		9E33676B219AFB390096CF1D /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 		9E33676F219AFCEA0096CF1D /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		9E3B55C53EB21C5DB6665D3A4EDBB295 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
+		9E3F9955219B79E4005DE8A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9FA7DA19DC0A8E43ED839051EB1B5C66 /* CwlMachBadInstructionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlMachBadInstructionHandler.m; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.m; sourceTree = "<group>"; };
 		A15E1D72A1A003CA4F24635B21B0268C /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
 		A19225C3D73CFBCA4B12272C9F3058FF /* World+DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "World+DSL.h"; path = "Sources/QuickObjectiveC/DSL/World+DSL.h"; sourceTree = "<group>"; };
@@ -539,6 +541,7 @@
 		2DB3E66019029AE66527E709B6F84201 /* UIStarterKit */ = {
 			isa = PBXGroup;
 			children = (
+				9E3F9952219B797A005DE8A3 /* Assets */,
 				9E3F9951219B0A0F005DE8A3 /* Classes */,
 				1A33560E86F1E9BA8DE6730C8F8EEABE /* Pod */,
 				71935CCFA62507696630E417054BDE7A /* Support Files */,
@@ -751,6 +754,14 @@
 				9E33676A219AFB390096CF1D /* MaterialInput .swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		9E3F9952219B797A005DE8A3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9E3F9955219B79E4005DE8A3 /* Images.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		AB20927E08DF90B0FE616DC57BF185AB /* Pods-UIStarterKit_Tests */ = {
@@ -1167,6 +1178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3F9956219B79E4005DE8A3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

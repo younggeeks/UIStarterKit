@@ -17,7 +17,7 @@ Helper classes that will make your UI design less painful
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'UIStarterKit/**/**'
+  s.source_files = '**/**/**'
   
   # s.resource_bundles = {
   #   'UIStarterKit' => ['UIStarterKit/Assets/*.png']
