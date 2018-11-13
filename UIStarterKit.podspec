@@ -15,7 +15,7 @@ Helper classes that will make your UI design less painful
   s.source           = { :git => 'https://github.com/younggeeks/UIStarterKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'UIStarterKit/Classes/*.swift'
   
