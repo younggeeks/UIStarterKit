@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIStarterKit'
-  s.version          = '1.0.2'
+  s.version          = '1.0.2.1'
   s.summary          = 'Kickstart your UI Design with UIStarterKit'
 
   s.description      = <<-DESC
