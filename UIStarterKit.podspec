@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIStarterKit'
-  s.version          = '0.1.0'
+  s.version          = '1.0.2'
   s.summary          = 'Kickstart your UI Design with UIStarterKit'
 
   s.description      = <<-DESC
@@ -17,13 +17,13 @@ Helper classes that will make your UI design less painful
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'UIStarterKit/Classes/*.swift'
+  s.source_files = 'UIStarterKit/**/**'
   
   # s.resource_bundles = {
   #   'UIStarterKit' => ['UIStarterKit/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-    s.frameworks = 'UIKit'
+#  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
