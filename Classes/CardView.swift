@@ -14,14 +14,6 @@ class CardView: UIView {
         super.awakeFromNib()
     }
     
-    
-//    @IBInspectable
-//    var shadowColor:CGColor = UIColor.black.cgColor{
-//        didSet{
-//            layer.shadowColor = shadowColor
-//        }
-//    }
-
     @IBInspectable
     var shadowColour:UIColor = UIColor.lightGray{
         didSet{
