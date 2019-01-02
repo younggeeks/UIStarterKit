@@ -57,7 +57,7 @@ class GradientView: UIView {
         layer.colors = [firstColor, secondColor].map{$0.cgColor}
         layer.startPoint = startPoint
         layer.endPoint = endPoint
-        
+
         //TODO : add support for locations
     }
     
