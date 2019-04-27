@@ -109,6 +109,7 @@
 		997F619D81C3C5B6D56417285630846C /* CurrentTestCaseTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3531CE5F730F1DEC4FDBB944E7A8B12E /* CurrentTestCaseTracker.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9B717843748960601929C057B413BE7A /* Pods-UIStarterKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 280E380A63642FFA4C821BAD78D6A132 /* Pods-UIStarterKit_Tests-dummy.m */; };
 		9DB61714FFE1CDD9177BF8C7006135C8 /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC8B203A9973AF61F939CF61D619C41 /* QuickSelectedTestSuiteBuilder.swift */; };
+		9E09795F21DC870C00A0DA7A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E09795D21DC870000A0DA7A /* GradientView.swift */; };
 		9E33676D219AFB390096CF1D /* MaterialInput .swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E33676A219AFB390096CF1D /* MaterialInput .swift */; };
 		9E33676E219AFB390096CF1D /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E33676B219AFB390096CF1D /* FancyButton.swift */; };
 		9E336770219AFCEA0096CF1D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E33676F219AFCEA0096CF1D /* CardView.swift */; };
@@ -357,6 +358,7 @@
 		99E9C685ED2679C8E3F406AEF933416D /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
 		9B5987D2C44C3D6EA02EA5657A6E8FBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CD255CA0D4FEE118FDCD7D9DF775D45 /* Pods-UIStarterKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIStarterKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		9E09795D21DC870000A0DA7A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		9E33676A219AFB390096CF1D /* MaterialInput .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MaterialInput .swift"; sourceTree = "<group>"; };
 		9E33676B219AFB390096CF1D /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 		9E33676F219AFCEA0096CF1D /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -749,6 +751,7 @@
 				9E33676B219AFB390096CF1D /* FancyButton.swift */,
 				9E33676F219AFCEA0096CF1D /* CardView.swift */,
 				9E33676A219AFB390096CF1D /* MaterialInput .swift */,
+				9E09795D21DC870000A0DA7A /* GradientView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1224,6 +1227,7 @@
 			files = (
 				9E33676D219AFB390096CF1D /* MaterialInput .swift in Sources */,
 				9E33676E219AFB390096CF1D /* FancyButton.swift in Sources */,
+				9E09795F21DC870C00A0DA7A /* GradientView.swift in Sources */,
 				2B8DFED19CEAE5859C1DF1D972DE7CA4 /* UIStarterKit-dummy.m in Sources */,
 				9E336770219AFCEA0096CF1D /* CardView.swift in Sources */,
 			);
