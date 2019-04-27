@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name         = 'UIStarterKit'
-spec.version      = '1.0.2.2'
+spec.version      = '1.0.2.3'
 spec.license      = { :type => 'BSD' }
 spec.homepage     = 'https://github.com/younggeeks/UIStarterKit'
 spec.authors      = { 'Samwel Charles' => 'younggeeks101@gmail.com' }
